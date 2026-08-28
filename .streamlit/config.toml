@@ -1,0 +1,19 @@
+# Streamlit theme configuration
+# Overrides Streamlit's built-in colours so the app uses our own dark palette
+# instead of the default light theme with its red accent (#FF4B4B).
+
+[theme]
+base = "dark"
+
+primaryColor = "#3DBFC9"              # teal - buttons, tab underline, focus rings
+backgroundColor = "#0F1729"           # deep navy page ground (deliberately not black)
+secondaryBackgroundColor = "#18213A"  # cards, sidebar, inputs
+textColor = "#E8ECF5"                 # light text
+
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
