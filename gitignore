@@ -1,0 +1,30 @@
+# ---- Dataset ----------------------------------------------------------
+# The Excel file is ~45 MB and the deployed app does not need it, since it
+# loads the pre-trained models instead. Download it from:
+# https://archive.ics.uci.edu/dataset/502/online+retail+ii
+online_retail_II.xlsx
+*.xlsx
+
+# ---- Jupyter ----------------------------------------------------------
+.ipynb_checkpoints/
+
+# ---- Python -----------------------------------------------------------
+__pycache__/
+*.py[cod]
+venv/
+env/
+.venv/
+
+# ---- Operating system -------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# ---- Editors ----------------------------------------------------------
+.vscode/
+.idea/
+
+# ---- Force-include the Streamlit theme --------------------------------
+# Some templates ignore dot-folders. Without config.toml the deployed app
+# falls back to Streamlit's default light theme and red accent colour.
+!.streamlit/
+!.streamlit/config.toml
