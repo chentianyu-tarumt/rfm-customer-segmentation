@@ -1,0 +1,5 @@
+Segment,Customers,% of base,Revenue (GBP),% of revenue,Value each (GBP),Recency (d),Orders,Action
+Champions,1196,20.3,12834471.0,73.9,10731.0,17,13,Reward and retain
+At-Risk,1459,24.8,2842867.0,16.4,1949.0,186,4,Win back now
+Promising,1250,21.3,1071864.0,6.2,857.0,24,3,Nurture into loyalty
+Dormant,1973,33.6,625602.0,3.6,317.0,402,1,Minimal spend
